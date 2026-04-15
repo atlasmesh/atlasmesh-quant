@@ -17,6 +17,7 @@
 ---
 
 ## ✨ 功能
+
 - AI/机器学习策略研究（Qlib）
 - Binance / OKX / Bybit（可扩展）
 - 回测 + 参数优化
@@ -27,13 +28,13 @@
 ---
 
 ## ⚡ 快速开始
+
 ```bash
 pip install -r requirements.txt
-
 python quant_framework.py
-
 streamlit run dashboard.py
 ```
+
 访问: http://localhost:8501
 
 ---
@@ -53,10 +54,13 @@ class MyStrategy(Strategy):
 ---
 
 ## 🗺️ 状态
+
 - 当前：仓库初始化
 - 计划：增加示例策略、回测用例、仪表盘模板
 
 ---
 
 ## 📚 文档
-- quantitative_trading_guide.md
+
+- [docs/workflow.md](docs/workflow.md)（完整工作流 + 学习路线）
+- quantitative_trading_guide.md（你本地 /Users/laok/Documents/GitHub/qlib 中的介绍与使用方法，上传后合并）
